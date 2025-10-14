@@ -1,0 +1,511 @@
+@import url("https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap");
+body {
+  background-color: rgb(250, 246, 241);
+}
+
+/* NAV SECTION */
+.nav-bar {
+  background-color: rgb(49, 21, 40);
+}
+.logo {
+  width: 100px;
+  padding-right: 200px;
+  cursor: pointer;
+}
+.cart-icon{
+  fill: rgb(174, 148, 121);
+  width: 30px;
+  height: 40px;
+}
+.cart-icon:hover{
+  fill: white;
+  width: 30px;
+  height: 40px;
+  cursor: pointer;
+}
+.profile-icon{
+  fill: rgb(174, 148, 121);
+  width: 30px;
+  height: 30px;
+}
+.profile-icon:hover{
+  fill: white;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 20px;
+}
+.nav-links a {
+  color: rgb(174, 148, 121);
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: rgb(250, 246, 241);
+}
+
+.liquor-store {
+  text-align: center;
+}
+
+.liquor-store ul {
+  list-style: none;
+}
+
+.liquor-store li {
+  display: inline-block;
+  padding: 20px;
+}
+
+
+/* ABOUT SECTION */
+.about-us {
+  text-align: center;
+}
+.about-us h1 {
+  font-size: 40px;
+  padding-top: 5%;
+  color: rgb(49, 21, 40);
+  cursor: pointer;
+}
+.about-us h1:hover {
+  font-size: 40px;
+  color: rgb(173, 144, 113);
+  padding-top: 5%;
+}
+.about-us h3 {
+  font-size: 25px;
+  color: rgb(104, 42, 84);
+}
+.about-div {
+  display: flex;
+}
+.about-img {
+  height: 500px;
+  width: 500px;
+  padding-left: 10%;
+}
+.about-p {
+  font-size: 20px;
+  padding-top: 5%;
+  padding-right: 10%;
+}
+
+/* BRANDS SECTION */
+.liquor-store {
+  text-align: center;
+}
+
+.liquor-store ul {
+  list-style: none;
+}
+
+.liquor-store li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.liquor-store h1{
+  text-align: center;
+  font-size: 40px;
+  color: rgb(49, 21, 40);
+  cursor: pointer;
+}
+
+.liquor-store h1:hover{
+  text-align: center;
+  font-size: 40px;
+  color:rgb(174, 148, 121);
+}
+
+.cart-container {
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping for smaller screens */
+  justify-content: center; /* Centers the items */
+  gap: 30px; /* Increases space between items */
+}
+.cart {
+  width: 280px; /* Slightly reduced for better spacing */
+  height: 320px; /* Adjusted height */
+  background-color: rgb(174, 148, 121);
+  text-align: center;
+  display: flex; /* Align content properly */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(100, 80, 150); /* Adjusted shadow for better visibility */
+}
+.cart-img {
+  margin-top: 10px;
+  height: 180px; /* Adjusted image height */
+  width: 180px;
+  border-radius: 10px;
+}
+.cart-text {
+  margin-top: 15px;
+  color: rgb(250, 246, 241);
+  font-size: 18px;
+  font-weight: bold;
+}
+.cart:hover {
+  background-color: rgb(49, 21, 40);
+}
+.cart-img:hover {
+  height: 200px;
+  width: 200px;
+}
+
+/* WINE SECTION */
+.region {
+  display: flex;
+}
+.region p {
+  color: rgb(174, 148, 121);
+  font-size: 50px;
+}
+.region h1 {
+  color: white;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+.region-img {
+  width: 100%;
+  height: 70%;
+}
+.region-div {
+  position: absolute;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+.region li {
+  margin: 15px;
+}
+.region button {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  width: 250px;
+  height: 45px;
+  border-radius: 20px 20px 20px 20px;
+  cursor: pointer;
+}
+.region button:hover {
+  background-color: rgb(174, 148, 121);
+  transition: all 0.3s ease-in-out;
+  color: white;
+  font-weight: bold;
+}
+.region ul {
+  text-decoration: none;
+}
+.region ul li a{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+/* WHISKEY SECTION */
+.whiskey {
+  position: relative; /* Ensures proper positioning */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content */
+  text-align: center;
+}
+.whiskey img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.Whiskey-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the div */
+  color: white;
+  text-align: center;
+}
+.whiskey p {
+  color: rgb(174, 148, 121);
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.whiskey h1 {
+  font-size: 35px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.whiskey ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.whiskey li {
+  margin: 5px;
+}
+.whiskey button {
+  background-color: whitesmoke;
+  color: black;
+  font-size: 15px;
+  width: 200px;
+  height: 45px;
+  border-radius: 20px;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.whiskey button:hover {
+  background-color: rgb(174, 148, 121);
+  color: white;
+  transform: scale(1.05);
+  font-weight: bold;
+}
+.whiskey ul li a{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+
+/* BARTENDER SECTION */
+.bartender h3{
+  padding-top: 40px;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(49, 21, 40);
+}
+
+.bartender h3:hover{
+  padding-top: 40px;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(174, 148, 121);;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap:100px; 
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding-top: 5%;
+  padding-bottom: 5%; 
+}
+
+.images img {
+  border-radius: 5px;
+}
+
+.img1{
+  margin-left: 200px;
+}
+
+.img2{
+  margin-top: 100px;
+}
+
+.form {
+  padding-top: 7%;
+  width:60%;
+  padding: 20px;
+  padding-right: 5%;
+  border-radius: 5px;
+  box-shadow :black
+}
+
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form input,
+.form select,
+.form button {
+  width: 70%;
+  padding: 10px;
+  margin-top: 18px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button {
+  background-color: rgb(49, 21, 40) ;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: rgb(174, 148, 121);
+}
+
+/* FOOTER SECTION */
+.footer-section {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  justify-content: space-between; /* Evenly distribute content */
+  align-items: flex-start; /* Aligns items at the top */
+  background-color: rgb(49, 21, 40);
+  padding: 50px 10%; /* Add padding for better spacing */
+  gap: 30px; /* Space between sections */
+}
+.footer-left {
+  flex: 1; 
+  min-width: 300px; /* Prevents excessive shrinking */
+}
+.footer-right{
+  display: flex;
+  min-width: 300px;
+  justify-content: space-between;
+}
+.footer-left h3,
+.footer-right h3,
+.footer-links {
+  color: white;
+}
+.footer-left p,
+.footer-right p {
+  color: rgb(174, 148, 121);
+}
+.footer-left p {
+  font-family: sans-serif, jost;
+  padding-right: 35px;
+}
+.footer-links {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  padding: 0;
+}
+.footer-links li {
+  margin-bottom: 10px; /* Adds spacing between list items */
+}
+.footer-links a {
+  text-decoration: none;
+  color: white;
+}
+.footer-links a:hover {
+  color: rgb(174, 148, 121);
+}
+.footer-links a:active {
+  color: rgb(250, 246, 241);
+}
+.footer-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+.footer-icons li {
+  margin-right: 10px;
+}
+
+.footer {
+  display: flex;
+  background-color: rgb(34, 15, 28);
+  color: rgb(174, 148, 121);
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.footer p {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: small;
+}
+.designer {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: small;
+}
+
+/* HOW IT WORKS  */
+.how-it-works {
+  text-align: center;
+  padding: 50px 20px;
+  padding-top: 2px;
+  /* background-color: #f5f5f5; Light gray background */
+}
+
+.how-it-works h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color:rgb(49, 21, 40);
+}
+
+.how-it-works h2:hover {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: rgb(174, 148, 121);
+}
+
+.steps-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.step {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.step img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.step h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.step p {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.step a {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #5c1a38; /* Dark purple */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  text-decoration: none;
+}
+
+.step a:hover {
+  background-color: rgb(174, 148, 121);
+}
+
